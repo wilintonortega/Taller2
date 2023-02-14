@@ -5,8 +5,8 @@
 
 let edad=prompt("Ingrese la edad");
 if (edad>17) {
-    console.log(`Es mayor de edad tienes ${edad} años`);
+    alert(`Es mayor de edad tienes ${edad} años`);
 } else {
-    console.log(`La edad ingresada no cumple con los parámetros, tienes ${edad} años`);
+    alert(`La edad ingresada no cumple con los parámetros, tienes ${edad} años`);
 
 }
